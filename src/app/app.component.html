@@ -3,7 +3,7 @@
 
 <head class="bg-gradient">
     <meta charset="utf-8">
-    <title>DONA MARIA</title>
+    <title style="color: black !important;">DONA MARIA</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -12,46 +12,61 @@
 </head>
 
 <body>
-    <div class=" bg-white p-0">
+    <div class=" p-0">
 
 
 
         <!-- Navbar & Hero Start -->
-        <div class=" position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark px-4 px-lg-5 py-3 py-lg-0">
-              <a href="" class="navbar-brand p-0 d-flex align-items-center">
-                <img src="logo black writing.png" alt="DONA MARIA Logo" style="height: 50px; margin-right: 10px;">
-                <h1 class="text-black m-0" style="font-size: 1.5rem;"><i class="fa fa-utensils me-2"></i>DONA MARIA</h1>
+        <div class="position-relative p-0">
+          <nav class="navbar navbar-expand-lg navbar-dark px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0 d-flex align-items-center">
+              <img src="logo black writing.png" alt="DONA MARIA Logo" style="height: 100px;width: 100%; margin-right: 10px;">
+              <h1 style="color: black !important;font-size: 1.5rem;" class=" m-0"><i class="fa fa-utensils me-2"></i>DONA MARIA</h1>
             </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link active">Accueil </a>
-                        <a href="service.html" class="nav-item nav-link active">Evenement</a>
-                        <a href="menu.html" class="nav-item nav-link active">Menu</a>
-
-                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
-                    </div>
-                    <a href="" class="btn btn-primary py-2 px-4">réserver une table</a>
-                </div>
-            </nav>
-            <div class="py-5 hero-header mb-5 position-relative">
-              <div class="container my-5 py-5">
-                  <div class="row align-items-center g-2">
-                      <div class="col-lg-6 text-center text-lg-start">
-                          <h1 style="color: #173782 ;" class="display-3 animated slideInLeft">Les saveurs du Portugal</h1>
-                          <p style="color: #173782; font-size: 2rem; font-weight: bold;" class="animated slideInLeft mb-5 pb-3">PORTUGAIS . FRAIS . FAIT MAISON</p>
-                          <a style="font-size: 1.1rem; padding: 1rem 3rem;" href="" class="btn btn-primary py-sm-4 px-sm-6 me-4 animated slideInLeft">réserver une table</a>
-
-                      </div>
-                      <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                          <img class="img-fluid" style="max-width: 40%; height: 80%;" src="hero1.png" alt="">
-                      </div>
-                  </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0 pe-4">
+                <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                <a href="service.html" class="nav-item nav-link active">Evenement</a>
+                <a href="menu.html" class="nav-item nav-link active">Menu</a>
+                <a href="contact.html" class="nav-item nav-link active">Contact</a>
               </div>
+              <a href="" class="btn btn-primary py-2 px-4">réserver une table</a>
+            </div>
+          </nav>
+
+          <!-- Video Background -->
+          <div class="hero-header mb-5 position-relative">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline class="background-video">
+              <source src="0609.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <!-- Gradient Overlay -->
+            <div class="video-overlay"></div>
+
+            <!-- Content Overlay -->
+            <div class="container my-5 py-5 text-overlay">
+              <div class="row align-items-center g-2">
+                <div class="col-lg-6 text-center text-lg-start">
+                  <h1 style="color: #173782;" class="display-3 animated slideInLeft">Les saveurs du Portugal</h1>
+                  <p  style="color: #173782; font-size: 1.5rem; font-weight: bold;" class=" mb-5 pb-3">
+                    PORTUGAIS . FRAIS . FAIT MAISON
+                  </p>
+                  <a style="color: #ffffff;font-size: 1rem;" href="" class="btn btn-primary py-sm-4 px-sm-6 me-4 animated slideInLeft">
+                    Réserver une table
+                  </a>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                  <img class="img-fluid" style="max-width: 80%; height: 100%;" src="hero1.png" alt="">
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
 
         <!-- Service End -->
@@ -60,10 +75,11 @@
         <!-- About Start -->
 
         <!-- About End -->
+      </div>
 
 
         <!-- Menu Start -->
-        <div class="container-xxl py-2">
+        <div class="container-xxl py-5 " style="background-color: white;z-index: 99;">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h2 style="color: #173782 ;" class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h2>
@@ -98,8 +114,8 @@
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2 ">
+                                                <span >Chicken Burger</span>
                                                 <span class="text-primary">$115</span>
                                             </h5>
                                             <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
@@ -406,7 +422,7 @@
 
 
         <!-- Team Start -->
-        <div class="container-xxl pt-5 pb-3">
+        <div class="container-xxl pt-5 pb-3"style="background-color: white;z-index: 99;">
           <div class="container">
               <!-- Section Title -->
               <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -487,7 +503,7 @@
 
 
         <!-- Testimonial Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl py-5 wow fadeInUp" style="background-color: white;z-index: 2;"data-wow-delay="0.1s">
             <div class="container">
                 <div class="text-center">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
@@ -497,34 +513,31 @@
 
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p style="color: #173782 ;">This restaurant is absolutely fantastic! The atmosphere is cozy, and the service is top-notch. I highly recommend it for anyone looking for a great place to eat!</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src=" testimonial-2.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Noah Schmid</h5>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p style="color: #173782 ;">The food here is simply incredible! Every dish is full of flavor, and the ingredients taste so fresh. I keep coming back because I can’t get enough!</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src=" testimonial-3.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Sophie Dubois</h5>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p style="color: #173782 ;">From the moment we walked in, everything was perfect. The staff was friendly, the ambiance was great, and the food was exceptional. Definitely one of the best dining experiences I’ve had!</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src=" testimonial-4.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Luca Meier </h5>
                             </div>
                         </div>
                     </div>
@@ -534,55 +547,52 @@
         <!-- Testimonial End -->
 
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #1d1d1d; color: #fff;">
-          <div class="container py-5">
-              <!-- Logo and Info Section -->
-              <div class="row">
-                  <!-- Logo Section -->
-                  <div class="col-md-4 text-center text-md-start">
-                      <div>
-                          <img width="150" src="http://donamaria.ch/wp-content/uploads/2023/06/Dona-Maria-Logo-2.svg" alt="Dona Maria Logo">
-                      </div>
-                      <p class="mt-3">Les saveurs du Portugal à côté de chez vous!</p>
-                      <div class="d-flex justify-content-center justify-content-md-start mt-3">
-                          <a href="tel:+41327304498" class="btn btn-light btn-sm d-flex align-items-center">
-                              <i class="fas fa-phone-volume me-2"></i> +41 32 730 44 98
-                          </a>
-                      </div>
-                  </div>
+<!-- Video Background -->
+<div class="video-container">
+  <video autoplay muted loop playsinline class="background-video">
+    <source src="0609.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-                  <!-- Links Section -->
-                  <div class="col-md-4 text-center text-md-start mt-4 mt-md-0">
-                      <h5 class="text-light mb-3">Quick Links</h5>
-                      <ul class="list-unstyled">
-                          <li><a href="" class="text-decoration-none text-light">Accueil</a></li>
-                          <li><a href="" class="text-decoration-none text-light">Cookies</a></li>
-                          <li><a href="" class="text-decoration-none text-light">Help</a></li>
-                          <li><a href="" class="text-decoration-none text-light">FQAs</a></li>
-                      </ul>
-                  </div>
-
-                  <!-- Copyright Section -->
-                  <div class="col-md-4 text-center text-md-end mt-4 mt-md-0">
-                      <div>
-                          &copy; <a href="#" class="border-bottom text-light">Your Site Name</a>, All Rights Reserved.
-                      </div>
-                      <div>
-                          Designed By <a href="https://htmlcodex.com" class="border-bottom text-light">HTML Codex</a><br>
-                          Distributed By <a href="https://themewagon.com" target="_blank" class="border-bottom text-light">ThemeWagon</a>
-                      </div>
-                  </div>
+<!-- Footer Start -->
+<div class="container-fluid footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+  <div class="container py-5 position-relative">
+      <!-- Logo and Info Section -->
+      <div class="row">
+          <!-- Logo Section -->
+          <div class="col-md-4 text-center text-md-start">
+              <div>
+                  <img width="150" src="http://donamaria.ch/wp-content/uploads/2023/06/Dona-Maria-Logo-2.svg" alt="Dona Maria Logo">
+              </div>
+              <p class="mt-3">Les saveurs du Portugal à côté de chez vous!</p>
+              <div class="d-flex justify-content-center justify-content-md-start mt-3">
+                  <a href="tel:+41327304498" class="btn btn-light btn-sm d-flex align-items-center">
+                      <i class="fas fa-phone-volume me-2"></i> +41 32 730 44 98
+                  </a>
               </div>
           </div>
+
+          <!-- Links Section -->
+          <div class="col-md-4 text-center text-md-start mt-4 mt-md-0">
+              <h5 class="text-light mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="" class="text-decoration-none text-light">Accueil</a></li>
+                  <li><a href="" class="text-decoration-none text-light">Cookies</a></li>
+                  <li><a href="" class="text-decoration-none text-light">Help</a></li>
+                  <li><a href="" class="text-decoration-none text-light">FQAs</a></li>
+              </ul>
+          </div>
+
+          <!-- Copyright Section -->
+
       </div>
-
-        <!-- Footer End -->
-
+  </div>
+</div>
+<!-- Footer End -->
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
