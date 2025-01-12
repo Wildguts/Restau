@@ -150,14 +150,6 @@
 }
 
 
-/*** Hero Header ***/
-.hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../ _DSC9471.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .hero-header img {
     animation: imgRotate 50s linear infinite;
 }
@@ -232,16 +224,7 @@
 }
 
 
-/*** Youtube Video ***/
-.video {
-    position: relative;
-    height: 100%;
-    min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../ video.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .video .btn-play {
     position: absolute;
