@@ -57,9 +57,10 @@
                     Réserver une table
                   </a>
                 </div>
-                <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                  <img class="img-fluid" style="max-width: 80%; height: 100%;" src="hero1.png" alt="">
+                <div class="col-lg-6 text-center text-lg-end overflow-hidden py-2">
+                  <img class="img-fluid" style="max-width: 80%; height: auto;" src="hero1.png" alt="Responsive Image">
                 </div>
+
               </div>
             </div>
           </div>
@@ -620,6 +621,58 @@
         </div>
 
         <!-- Reservation Start -->
+        <div class="container-xxl  wow fadeInUp" style="background-color: white;z-index: 99;" data-wow-delay="0.1s">
+
+        <div class="col-md-6 container  pt-5 pb-3 bg-dark d-flex align-items-center">
+          <div class="text-center wow fadeInUp " data-wow-delay="0.2s">
+              <h5 class="section-title ff-secondary text-center text-primary fw-normal">Reservation</h5>
+              <h1 class="text-white mb-4">Réserver une table en ligne</h1>
+              <form>
+                  <div class="row g-3">
+                      <div class="col-md-6">
+                          <div class="form-floating">
+                              <input type="text" class="form-control" id="name" placeholder="Your Name">
+                              <label for="name">Nom</label>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-floating">
+                              <input type="email" class="form-control" id="email" placeholder="Your Email">
+                              <label for="email">Telephone</label>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-floating date" id="date3" data-target-input="nearest">
+                              <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                              <label for="datetime">Date et heure</label>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-floating">
+                              <select class="form-select" id="select1">
+                                <option value="1">Personne 1</option>
+                                <option value="2">Personnes 2</option>
+                                <option value="3">Personnes 3</option>
+                                <option value="3">Personnes 4</option>
+
+                              </select>
+                              <label for="select1">No de Personnes</label>
+                            </div>
+                      </div>
+                      <div class="col-12">
+                          <div class="form-floating">
+                              <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                              <label for="message">Demande spéciale</label>
+                          </div>
+                      </div>
+                      <div class="col-12">
+                          <button class="btn btn-primary w-100 py-3" type="submit">Réservez maintenant</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+    </div>
 
 
         <!-- Modal for Video -->
