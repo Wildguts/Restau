@@ -163,7 +163,11 @@
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
-
+.text {
+  position: relative;
+  display: inline-block;
+  z-index: 99;
+}
 
 /*** Section Title ***/
 .section-title {
@@ -172,7 +176,27 @@
     z-index: 99;
 }
 
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
 
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
 
 .section-title.text-start::before,
 .section-title.text-end::after {
